@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+   
+    /*font-family: 'Montserrat', sans-serif;*/
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    
+}
+/*header starts*/
+header{
+    background-image: url(photo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    height: 100vh;
+}
+.navbar{
+   
+    background-color: lightgrey;
+}
+.navbar-icon{
+    color: red;
+}
+.navbar-brand img{
+    width: 50px;
+    height: auto;
+}
+.nav-link{
+    background-color:wheat;
+    border-radius: 10px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: black;
+    color: goldenrod;
+    transform: scale(1.1);
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(7, 101,189,0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive; 
+    border-radius: 20px;
+   
+}
+/*header ends*/
+
+/*features starts*/
+#features{
+    padding: 5% 10%;
+    background-color: rgb(230, 201, 164);
+}
+.features-col{
+    border: 1PX solid deeppink;
+    border-radius: 5PX;
+    padding: 20px;
+    margin: 20px;
+    transition: .4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px aqua;
+}
+.icon-style{
+    background-color: darkorange;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+}
+
+/*features ends*/
+
+/*about me starts*/
+ .hr-style{
+     border: 5px dotted white;
+     border-bottom: none;
+     width: 100%;
+     text-align: center;
+ }
+ #about{
+     padding: 5% 10%;
+     background-color: rgb(230, 201, 164);
+ }
+ #about-me p{
+     font-size: 1rem;
+     margin-bottom: 0;
+ }
+/*about me ends*/
+/*tutorial starts*/
+ #tutorial{
+     padding: 4% 10%;
+     background-color: rgb(100, 87, 179);
+ }
+ .card{
+     transition: .4s;
+     border: 1.5px solid deeppink;
+ }
+ .card:hover{
+     transform: scale(1.1);
+     box-shadow: 2px 6px 5px goldenrod;
+ }
+/*tutorial starts*/ 
+
+#feedback{
+    background-color: #0d0442;
+    padding: 7% 12%;
+}
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+    font-style: italic;
+  }
+  /*footer stars*/
+     footer{
+         background-color: black;
+         padding: 1% 10%;
+     } 
+     .youtube{
+         color: red;
+         margin: 0 10px;
+     }
+     .instragram{
+         color: rgb(202, 80, 202);
+         margin: 0 10px;
+     }
+     .facebook{
+         color: rgb(61, 61, 179);
+         margin: 0 10px;
+     }
+     footer a:hover{
+         color: white;
+     }
+
+  /*footer ends*/
