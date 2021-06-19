@@ -1,0 +1,22 @@
+
+.navbar{
+    box-shadow: 2px 2px 5px rgb(51, 132, 134);
+  
+}
+.nav-item{
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
+.nav-link{
+    background-color:white;
+    border-radius: 10px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: wheat;
+    color: goldenrod;
+    transform: scale(1.1);
+}
