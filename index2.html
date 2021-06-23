@@ -7,7 +7,10 @@
     <title>Mizuxe</title>
     <!-- CSS only -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> 
-  
+   
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+
     <style>
        h3{
           color: brown;
@@ -18,7 +21,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg py-3">
+    <nav class="navbar navbar-light navbar-expand-lg py-3 fixed-top">
        <div class="container">
           <a href="#showcase" class="navbar-brand">
             <img src="bs photo/M.jpg" class="img-fluid rounded-circle" width="100" height="100" alt=""> 
@@ -45,7 +48,324 @@
         </div>
        </div>
     </nav>
- 
+    
+    <!--showcase-->
+    <section id="showcase" class="py-5 text-center">
+      <div class="primary-overplay">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-md-12">
+                  <h1 class="display-1 mt-5 pt-5" style="color: deeppink;">Do What You Dream Of...</h1>
+                  <p class="font-weight-bold" style="color: wheat;">Eirmod erat stet clita eos lorem dolor diam ea sanctus elitr, amet no takimata tempor sed dolor eirmod no amet tempor, aliquyam et justo dolores labore invidunt, lorem diam kasd.</p>
+                  <a href="#" class="btn btn-outline-light btn-lg" style="border-radius: 10px;"><i class="fa fa-arrow-right"></i>Read More</a>
+               </div>
+               <div class="col-lg-6">
+                  <img src="bs photo/miz.png" class="img-fluid" style="height: 500px; width: 250px;" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+    </section>
+
+    <!--subscribe-->
+    <section id="subscribe" class="bg-dark py-5">
+      <div class="container">
+         <form class="row">
+            <div class="col-lg-4">
+               <div class="form-group">
+                 <input type="text" placeholder="Name" class="form-control form-control-lg">
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="form-group my-2 my-md-3 my-lg-0">
+                 <input type="email" placeholder="Email" class="form-control form-control-lg">
+               </div>
+            </div>
+            <div class="col-lg-4">
+              <button class="btn btn-danger btn-lg btn-block">
+               <i class="far fa-envelope"></i>
+               Subscribe
+              </button>
+            </div>
+         </form>
+      </div>
+    </section>
+    <!--boxes-->
+    <section id="boxes" class="py-5 text-center">
+       <div class="container">
+         <div class="row">
+            <div class="col-lg-3">
+              <div class="card border-primary"  style="background-color: rgb(156, 29, 99);">
+               <div class="card-body">
+                  <h3 style="color: navajowhite;">Be Better</h3>
+                  <p class="lead" style="color: lightslategrey;">Sanctus est rebum est stet dolor erat et. Consetetur aliquyam elitr duo duo. Magna labore lorem ea dolore voluptua tempor.</p>
+               </div>
+              </div> 
+            </div>
+            
+            <div class="col-lg-3">
+               <div class="card border-primary" style="background-color: darkcyan;">
+                <div class="card-body">
+                   <h3 class="text-danger">Be Smarter</h3>
+                   <p class="lead">Sanctus est rebum est stet dolor erat et. Consetetur aliquyam elitr duo duo. Magna labore lorem ea dolore voluptua tempor.</p>
+                </div>
+               </div> 
+             </div>
+             
+             <div class="col-lg-3">
+               <div class="card border-primary" style="background-color: rgb(156, 29, 99);">
+                <div class="card-body">
+                   <h3 style="color: navajowhite;">Be Faster</h3>
+                   <p class="lead" style="color: lightslategrey;">Sanctus est rebum est stet dolor erat et. Consetetur aliquyam elitr duo duo. Magna labore lorem ea dolore voluptua tempor.</p>
+                </div>
+               </div> 
+             </div>
+                
+             <div class="col-lg-3">
+               <div class="card border-primary" style="background-color: darkcyan;">
+                <div class="card-body">
+                   <h3 class="text-danger">Be Stronger</h3>
+                   <p class="lead">Sanctus est rebum est stet dolor erat et. Consetetur aliquyam elitr duo duo. Magna labore lorem ea dolore voluptua tempor.</p>
+                </div>
+               </div> 
+             </div>
+
+         </div> 
+       </div>
+    </section>
+
+    <!--about-->
+    <section id="about" class="bg-light py-5 text-center">
+       <div class="container">
+          <div class="row">
+             <div class="col-12">
+                <div class="info-book">
+                   <h2 class="display-4 text-info">Why This Book?</h2>
+                   <p class="lead">Ut sit justo et diam diam et invidunt accusam lorem. Erat stet diam gubergren sed. Est aliquyam dolor sadipscing stet diam. Est dolore amet tempor eirmod clita, eos ipsum et dolore eirmod dolor et, kasd eirmod eirmod et dolor. Ipsum consetetur kasd elitr gubergren kasd ipsum stet stet, dolor tempor.</p>
+                </div>
+                <!--according-->
+                <div id="accordion" class="pt-5" role="tablist">
+                   <div class="card">
+                      <div class="card-header" role="tab">
+                        <h5 class="mb-0">
+                          <div data-bs-toggle="collapse" href="collapse1">
+                           <i class="fas fa-arrow-alt-circle-down"></i> Get Inspired
+                          </div>
+                        </h5>
+                      </div>
+                      <div id="collapse1" class="collapse show" data-parent="#accordion">
+                         <div class="card-body">
+                            <p class="lead">Diam at rebum ea eos sit aliquyam accusam labore et, aliquyam tempor aliquyam sadipscing et dolor dolores eos kasd. Labore no stet diam gubergren accusam. Dolor ipsum lorem takimata sed est et lorem. No kasd voluptua sadipscing sanctus. Amet rebum ipsum clita amet, kasd consetetur et erat justo dolores labore, clita diam et dolore stet sed sed gubergren est at, dolores erat takimata eirmod ipsum. Et duo ea sea et vero diam, ipsum nonumy ut ea sit sit nonumy at, vero dolore duo lorem et et diam lorem amet, diam magna dolor diam diam ipsum sed ipsum. Et diam at.</p>
+                         </div>
+                      </div>
+                   </div>
+
+                   <div class="card" role="tablist">
+                      <div class="card-header">
+                       <h5 class="mb-0">  
+                        <div data-bs-toggle="collapse" href="#collapse2">
+                           <i class="fas fa-arrow-alt-circle-down"></i> Gain The Knowledge
+                         </div>
+                        </h5>  
+                      </div>
+                      <div id="collapse2" class="collapse" data-parent="#accordion">
+                         <div class="card-body">
+                            <p class="lead">Magna et dolores diam kasd sed erat ea dolor accusam, tempor magna vero lorem rebum. Sit ut ea dolor sanctus sit clita et et ipsum, at tempor et ut voluptua magna accusam labore. Sanctus no accusam lorem est justo dolor, et ipsum aliquyam sed sed. Accusam sadipscing et sea takimata.</p>
+                         </div>
+                      </div>
+                   </div>
+
+                   <div class="card" role="tablist">
+                     <div class="card-header">
+                      <h5 class="mb-0">  
+                       <div data-bs-toggle="collapse" href="#collapse3">
+                          <i class="fas fa-arrow-alt-circle-down"></i>  Open Your Mind  
+                        </div>
+                       </h5>  
+                     </div>
+                     <div id="collapse3" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                           <p class="lead">Magna et dolores diam kasd sed erat ea dolor accusam, tempor magna vero lorem rebum. Sit ut ea dolor sanctus sit clita et et ipsum, at tempor et ut voluptua magna accusam labore. Sanctus no accusam lorem est justo dolor, et ipsum aliquyam sed sed. Accusam sadipscing et sea takimata.</p>
+                        </div>
+                     </div>
+                  </div>
+
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+    <!--Authors-->
+    <section id="authors" class="text-center py-5">
+      <div class="container">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="info-authors">
+                     <h2 class="display-4 text-info">Meet The Authors</h2>
+                     <p class="lead">Ut sit justo et diam diam et invidunt accusam lorem. Erat stet diam gubergren sed. Est aliquyam dolor sadipscing stet diam. Est dolore amet tempor eirmod clita, eos ipsum et dolore eirmod dolor et, kasd eirmod eirmod et dolor. Ipsum consetetur kasd elitr gubergren kasd ipsum stet stet, dolor tempor.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="row">
+            <div class="col-lg-3">
+               <div class="card">
+                  <div class="card-body">
+                     <img src="bs photo/a1.jpg" class="img-fluid rounded-circle mb-3" alt="">
+                     <h3>Susan William</h3>
+                     <h5>Lead Writer</h5>
+                     <p class="lead">Ea et kasd eos no dolor sadipscing vero. Consetetur takimata et diam dolores. Accusam sadipscing clita invidunt eos sed eos, et accusam accusam sit amet ut. Lorem ut amet et tempor invidunt justo et, nonumy lorem aliquyam et eirmod sed vero dolor, ipsum et et kasd et takimata no sit.</p>
+                    <div class="d-flex flex-row justify-content-center">
+                       <div class="p-4">
+                        <a href="https://www.facebook.com/facebookapp/"><i class="fab fa-facebook-f"></i></a> 
+                       </div>
+                       <div class="p-4">
+                        <a href="https://en.wikipedia.org/wiki/Twitter"><i class="fab fa-twitter"></i></a> 
+                       </div>
+                       <div class="p-4">
+                        <a href="https://www.linkedin.com/jobs"><i class="fab fa-linkedin-in"></i></a> 
+                       </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-3">
+               <div class="card">
+                  <div class="card-body">
+                     <img src="bs photo/a2.jpg" class="img-fluid rounded-circle mb-3" alt="">
+                     <h3>Grace Smith</h3>
+                     <h5>Co-Writer</h5>
+                     <p class="lead">Ea et kasd eos no dolor sadipscing vero. Consetetur takimata et diam dolores. Accusam sadipscing clita invidunt eos sed eos, et accusam accusam sit amet ut. Lorem ut amet et tempor invidunt justo et, nonumy lorem aliquyam et eirmod sed vero dolor, ipsum et et kasd et takimata no sit.</p>
+                     <div class="d-flex flex-row justify-content-center">
+                        <div class="p-4">
+                         <a href="https://www.facebook.com/facebookapp/"><i class="fab fa-facebook-f"></i></a> 
+                        </div>
+                        <div class="p-4">
+                         <a href="https://en.wikipedia.org/wiki/Twitter"><i class="fab fa-twitter"></i></a> 
+                        </div>
+                        <div class="p-4">
+                         <a href="https://www.linkedin.com/jobs"><i class="fab fa-linkedin-in"></i></a> 
+                        </div>
+                     </div> 
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-3">
+               <div class="card">
+                  <div class="card-body">
+                     <img src="bs photo/a3.jpg" class="img-fluid rounded-circle mb-3" alt="">
+                     <h3>John Doe</h3>
+                     <h5>Editor</h5>
+                     <p class="lead">Ea et kasd eos no dolor sadipscing vero. Consetetur takimata et diam dolores. Accusam sadipscing clita invidunt eos sed eos, et accusam accusam sit amet ut. Lorem ut amet et tempor invidunt justo et, nonumy lorem aliquyam et eirmod sed vero dolor, ipsum et et kasd et takimata no sit.</p>
+                     <div class="d-flex flex-row justify-content-center">
+                        <div class="p-4">
+                         <a href="https://www.facebook.com/facebookapp/"><i class="fab fa-facebook-f"></i></a> 
+                        </div>
+                        <div class="p-4">
+                         <a href="https://en.wikipedia.org/wiki/Twitter"><i class="fab fa-twitter"></i></a> 
+                        </div>
+                        <div class="p-4">
+                         <a href="https://www.linkedin.com/jobs"><i class="fab fa-linkedin-in"></i></a> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-3">
+               <div class="card">
+                  <div class="card-body">
+                     <img src="bs photo/a4.jpg" class="img-fluid rounded-circle mb-3" alt="">
+                     <h3>Kevin Swanson</h3>
+                     <h5>Artist</h5>
+                     <p class="lead">Ea et kasd eos no dolor sadipscing vero. Consetetur takimata et diam dolores. Accusam sadipscing clita invidunt eos sed eos, et accusam accusam sit amet ut. Lorem ut amet et tempor invidunt justo et, nonumy lorem aliquyam et eirmod sed vero dolor, ipsum et et kasd et takimata no sit.</p>
+                     <div class="d-flex flex-row justify-content-center">
+                        <div class="p-4">
+                         <a href="https://www.facebook.com/facebookapp/"><i class="fab fa-facebook-f"></i></a> 
+                        </div>
+                        <div class="p-4">
+                         <a href="https://en.wikipedia.org/wiki/Twitter"><i class="fab fa-twitter"></i></a> 
+                        </div>
+                        <div class="p-4">
+                         <a href="https://www.linkedin.com/jobs"><i class="fab fa-linkedin-in"></i></a> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="py-5 bg-light">
+     <div class="container">
+      <div class="row">
+         <div class="col-lg-9">
+            <div class="info-contact">
+               <h2 class="display-4">Get In Touch</h2>
+               <p>Ea accusam est gubergren dolor eirmod labore eirmod. Dolor tempor diam magna sed sea diam gubergren labore. </p>
+            </div>
+            <form>
+              <div class="form-group"> 
+               <div class="input-group input-group-lg">
+                 <div class="input-group-prepand"> 
+                  <span class="input-group-text">
+                     <i class="fas fa-user" style="height: 40px;"></i>
+                  </span>
+                 </div> 
+                  <input type="text" placeholder="Name" class="form-control form-control-lg">
+               </div>
+              </div>
+              <div class="form-group">  
+               <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                     <span class="input-group-text">
+                        <i class="fas fa-envelope" style="height: 40px;"></i>
+                     </span>
+                  </div>
+                  <input type="email" placeholder="Email" class="form-control form-control-lg">
+               </div>
+              </div> 
+              <div class="form-group"> 
+               <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                     <span class="input-group-text">
+                        <i class="fas fa-pen" style="height: 310px;"></i>
+                     </span>
+                  </div>
+                  <textarea name="message" cols="30" rows="10" class="form-control form-control-lg"></textarea>
+               </div> 
+             </div> 
+             <div class="form-group py-3">  
+               <input type="submit" class="btn btn-lg btn-block" value="submit" style="width: 832px; background-color: cadetblue; color: white;">  
+             </div>
+            </form>
+         </div> 
+          <div class="col align-self-center">
+             <img src="bs photo/m-logo.png" class="img-fluid" alt="">
+          </div>  
+       </div>
+     </div> 
+    </section>
+    <!--footer-->
+    <footer id="footer-main" class="py-5" style="background-color: rgb(4, 92, 92); text-align: center; color:rgb(226, 199, 149)">
+        <div class="container">
+           <div class="row">
+              <div class="col-12">
+                 <p class="lead">Copyright © 2021 Mizuxe.</p>
+                 <span class="lead">Designed By: Mahadi</span>
+              </div>
+           </div>
+        </div>
+    </footer>
+
 
 
 

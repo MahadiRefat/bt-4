@@ -1,7 +1,8 @@
 
 .navbar{
     box-shadow: 2px 2px 5px rgb(51, 132, 134);
-  
+    background: #fff;
+    opacity: 0.9;
 }
 .nav-item{
     font-size: 1.5rem;
@@ -20,3 +21,23 @@
     color: goldenrod;
     transform: scale(1.1);
 }
+#showcase{
+    background-image: url('image.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+body{
+    margin-top: 100px;
+}
+h1{
+    font-size: 4rem;
+}
+.card:hover{
+    background-color: darkcyan;
+    color: white;
+    
+}
+
