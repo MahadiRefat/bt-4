@@ -1,0 +1,101 @@
+
+
+.nav-item{
+    padding-left: 1em ;
+}
+.navbar{
+    background-color: black;
+}
+
+.nav-link{
+    background-color:black;
+    border-radius: 10px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: rgb(204, 89, 36);
+    color:aqua;
+    transform: scale(1.1);
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background: url('bs photo/tree.jpg');
+    background-size: cover;
+}
+.carousel-img-2{
+    background: url('bs photo/night.jpg');
+    background-size: cover;
+}
+.carousel-img-3{
+    background: url('bs photo/orange.jpg');
+    background-size: cover;
+}
+#icon{
+    transition: transform 2s;
+}
+#icon:hover{
+    transform: rotate(360deg);
+}
+#getstarted{
+    background: url('bs photo/laptop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    color: rgb(221, 202, 174);
+    min-height: 300px;
+}
+#home-video{
+    background: url('bs photo/people.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#home-video h2{
+    background-color: rgba(7, 101,189,0.8);
+}
+#copyright{
+    background: #000;
+}
+
+/*About us scetion starts here*/
+
+#page-header{
+    background: url('bs photo/stars.jpg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+/*services*/
+
+#services-page-header{
+    background: url('bs photo/street.jpg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+
+@media(max-width:768px){
+    .nav-item{
+        padding-left: 0 !important;
+    }
+}
+
+/*blog*/
+#blog-page-header{
+    background: url('bs photo/sunset.jpg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+/*contact*/
+#contact-page-header{
+    background: url('bs photo/battle.jpg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed; 
+}
